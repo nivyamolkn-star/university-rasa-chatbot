@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_course
+  - ask_admissions
+  - ask_fees
+  - ask_timing
+  - goodbye
+
+responses:
+  utter_greet:
+  - text: "Hello ! Welcome to  ABC university. How can I help you?"
+  utter_course:
+  - text: "We offer a variety of courses in different fields. You can find more information about our courses on our website or by contacting our admissions office."
+  utter_admissions:
+  - text: "To apply for admission, you can visit our website and fill out the application form, or you can contact our admissions office for more information."
+  utter_fees:
+  - text: "The fees for our courses vary depending on the program and duration. You can find detailed information about the fee structure on our website or by contacting our admissions office."
+  utter_timings:
+  - text: "Our courses have flexible timings to accommodate different schedules. You can find more information about the class schedule on our website."
+  utter_goodbye:
+  - text: "Bye"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

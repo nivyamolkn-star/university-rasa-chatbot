@@ -1,0 +1,80 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: ask_course
+  examples: |
+    - what courses do you offer?
+    - can you tell me about your courses?
+    - I want to know about the courses available
+    - what are the courses you provide?
+    - please give me information on your courses
+    - I am interested in learning about your courses
+    - could you explain the courses you have?
+    - what kind of courses can I take?
+    - tell me more about the courses offered
+    - I would like to know about the different courses
+
+- intent: ask_admissions
+  examples: |
+    - how can I apply for admission?
+    - what is the admission process?
+    - can you guide me on how to get admitted?
+    - I want to know about the admission requirements
+    - please provide information on the admission procedure
+    - what are the steps for applying for admission?
+    - could you explain the admission process to me?
+    - I am interested in learning about how to get admitted
+    - tell me more about the admission criteria
+    - I would like to know about the application process
+
+- intent: ask_fees
+  examples: |
+    - what are the fees for your courses?
+    - can you tell me about the fee structure?
+    - I want to know about the tuition fees
+    - please provide information on the course fees
+    - what is the cost of enrolling in your courses?
+    - could you explain the fee details to me?
+    - I am interested in learning about the fees for your programs
+    - tell me more about the fee breakdown
+    - I would like to know about the payment options and fees
+
+- intent: ask_timing
+  examples: |
+    - what are the timings for your courses?
+    - can you tell me about the class schedule?
+    - I want to know about the course timings
+    - please provide information on the class timings
+    - what is the duration of each course session?
+    - could you explain the schedule to me?
+    - I am interested in learning about the timing of your programs
+    - tell me more about the class hours
+    - I would like to know about the timing options for your courses
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye

@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.rasa/
+models/
+.DS_Store

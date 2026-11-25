@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to course inquiry
+    steps:
+      - intent: ask_course
+      - action: utter_course
+
+  - rule: Respond to admissions inquiry
+    steps:
+      - intent: ask_admissions
+      - action: utter_admissions
+
+  - rule: Respond to fees inquiry
+    steps:
+      - intent: ask_fees
+      - action: utter_fees
+
+  - rule: Respond to timing inquiry
+    steps:
+      - intent: ask_timing
+      - action: utter_timings
+
+  - rule: Respond to goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
